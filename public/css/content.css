@@ -1,0 +1,55 @@
+#content_Bank h3{
+    text-align: center;
+    color: #373a6d;
+    text-decoration: underline;
+    font-size: 24px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+#topic{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    /* border-bottom: 1px solid #373a6d; */
+}
+.bank{
+    height:auto;
+    /* background-color: #373a6d; */
+    
+}
+.bank{
+    position: relative;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color:teal;  */
+}
+.bank > div {
+  /* background-color: #f1f1f1; */
+  width: 250px;
+  height: auto;
+  margin: 10px auto;
+  border-radius: 10px;
+  border: 2px solid #373a6d;
+  /* text-align: center; */
+  /* line-height: 75px; */
+  /* font-size: 30px; */
+}
+.bank ul{
+    list-style-type:disc;
+    padding: 0;
+    margin-left: 20px;
+    padding-left: 20px;
+    line-height: 35px;
+}
+.bank li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    
+    text-align: left;
+}
+.bank li:hover a{
+    text-decoration: underline #373a6d;
+}
